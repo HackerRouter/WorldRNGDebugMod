@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "hackerrouter.worldrngdebug.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "refmap": "worldrngdebug-refmap.json",
+  "mixins": [
+    "MixinCommands",
+    "MixinLegacyRandomSource",
+    "MixinLevel",
+    "LevelRandValueAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

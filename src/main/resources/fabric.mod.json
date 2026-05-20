@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "${id}",
+  "version": "${version}",
+  "name": "${name}",
+  "description": "DUDE",
+  "authors": ["HackerRouter"],
+  "contact": {
+    "homepage": "https://github.com/HackerRouter/WorldRNGDebugMod",
+    "sources": "https://github.com/HackerRouter/WorldRNGDebugMod"
+  },
+  "license": "LGPL-3.0",
+  "icon": "icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["hackerrouter.worldrngdebug.WrngMod"]
+  },
+  "mixins": ["worldrngdebug.mixins.json"],
+  "accessWidener": "worldrngdebug.accesswidener",
+  "depends": {
+    "fabricloader": ">=0.11.4",
+    "minecraft": "${minecraft_dependency}"
+  }
+}
